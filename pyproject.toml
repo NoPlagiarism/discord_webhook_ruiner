@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "discord_webhook_ruiner"
+version = "0.0.1"
+description = "Script that destroys Discord webhooks"
+authors = ["NoPlagiarism <37241775+NoPlagiarism@users.noreply.github.com>"]
+readme = "ReadMe.MD"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "~3.10"
+click = "~8.1.6"
+colorama = "~0.4.6"
+httpx = "~0.24.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+discord-webhook-ruiner = "src.discord_webhook_ruiner:main"
