@@ -42,3 +42,6 @@ python src
     - [ ] Send until destroy?
 
 Thanks to [Discohook](https://discohook.org/), great tool
+
+## Alternatives
+- [WebShook](https://github.com/Francesco2426/WebShook)
